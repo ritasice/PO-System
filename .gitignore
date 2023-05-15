@@ -1,0 +1,6 @@
+*/__pycache__/
+*.log
+include/
+lib/
+node_modules/
+share/
