@@ -7,11 +7,11 @@ from Routes.Forms import RegistrationForm, LoginForm, DepartmentForm, POForm
 @app.route('/TrackingSheet/<dpt>', methods=['GET', 'POST'])
 def trackingSheet(dpt):
     form = POForm()
-    user_dept = current_user.Department
-    user_dept_class = Department.query.filter_by(Name=user_dept).first()
-    form.department.data = user_dept_class.Name
-    form.dept_code = user_dept_class.Dept_Code
-    form.requester = f"{current_user.FirstName} {current_user.LastName}"
+    # user_dept = current_user.Department
+    # user_dept_class = Department.query.filter_by(Name=user_dept).first()
+    # form.department.data = user_dept_class.Name
+    # form.dept_code = user_dept_class.Dept_Code
+    # form.requester = f"{current_user.FirstName} {current_user.LastName}"
     if request.method == 'POST':
         entry = POEntry(
             PO_Number = form.PO_number.data,

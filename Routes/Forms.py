@@ -1,7 +1,7 @@
-from flask_wtf import FlaskForm
+from flask_wtf import FlaskForm, Form
 from flask_wtf.file import FileAllowed, FileField
 from wtforms import (BooleanField, DateField, PasswordField, StringField,
-                     SubmitField, SelectField, IntegerField, FloatField, TextAreaField)
+                     SubmitField, SelectField, IntegerField, FloatField, TextAreaField, validators)
 from wtforms.validators import (DataRequired, Email, EqualTo, Length,
                                 ValidationError)
 from Routes import db
@@ -36,8 +36,15 @@ class LoginForm(FlaskForm):
     email = StringField('Email',
                         validators=[DataRequired(), Email()])
     password = PasswordField('Password', validators=[DataRequired()])
-    remember = BooleanField('Remember Me')
+    # remember = BooleanField('Remember Me')
     submit = SubmitField('Login')
+    
+class LoginValidation(Form):
+    user_name_pid = StringField('', validators=[DataRequired()],
+                                render_kw={'autofocus': True, 'placeholder': 'Enter User'})
+ 
+    user_pid_Password = PasswordField('', validators=[DataRequired()],
+                                      render_kw={'autofocus': True, 'placeholder': 'Enter your login Password'})
     
 class UpdateAccountForm(FlaskForm):
     

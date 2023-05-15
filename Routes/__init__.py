@@ -16,6 +16,7 @@ app.config["UPLOAD_FOLDER"]  = UPLOAD_FOLDER
 app.secret_key = "Ritas2023"
 app.config["SESSION_TYPE"] = "filesystem"
 
+
 params = urllib.parse.quote_plus(
      "DRIVER={ODBC DRIVER 18 for SQL Server};SERVER="
     + server
@@ -36,3 +37,4 @@ login_manager.login_view = 'login'
 login_manager.login_message_category = 'info'
 
 from Routes import index, Tracking
+

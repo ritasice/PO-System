@@ -2,11 +2,11 @@ from flask import Flask, flash, redirect, render_template, request, url_for
 from flask_login import (current_user, login_required, login_user, logout_user)
 from Routes.model import Department, User
 from Routes import app, db, bcrypt
-from Routes.Forms import RegistrationForm, LoginForm, DepartmentForm
+from Routes.Forms import RegistrationForm, LoginForm, DepartmentForm, LoginValidation
+from Routes.global_ldap_authentication import *
 
 @app.route("/Index", methods=['GET', 'POST'])
 @app.route("/", methods=['GET', 'POST'])
-@login_required
 def index():
     form = DepartmentForm()
     if request.method == 'POST':
@@ -27,15 +27,26 @@ def login():
         return redirect(url_for("index"))
 
     form = LoginForm()
-    if form.validate_on_submit():
-        user = User.query.filter_by(Email=form.email.data).first()
-        if user and bcrypt.check_password_hash(user.HashPass, form.password.data):
-            login_user(user, remember=form.remember.data)
-            next_page = request.args.get("next")
-            return redirect(next_page) if next_page else redirect(url_for("index"))
+    if request.method == 'POST':
+        login_id = form.email.data
+        print(login_id)
+        login_password = form.password.data
+
+        # create a directory to hold the Logs
+        login_msg = global_ldap_authentication(login_id, login_password)
+
+        # validate the connection
+        if login_msg == "Success":
+            success_message = f"*** Authentication Success "
+            print(success_message)
+            return redirect(url_for('Shared/index.html'))
+
         else:
-            flash("Login Unsuccessful. Please check email and password", "red")
-    return render_template("Shared/login.html", title="Login", form=form)
+            error_message = f"*** Authentication Failed - {login_msg}"
+            print(error_message)
+            return render_template("Shared/login.html", error_message=str(error_message), form=form)
+
+    return render_template('Shared/login.html', form=form)
 
 @app.route("/logout")
 @login_required
