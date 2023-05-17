@@ -1,7 +1,7 @@
 from ldap3 import Server, Connection, ALL, SUBTREE
 from ldap3.core.exceptions import LDAPException, LDAPBindError
  
-def global_ldap_authentication(user_name, user_pwd):
+def global_ldap_authentication(user_name, user_pwd, root_dn):
     # fetch the username and password
     print(user_name)
     ldap_user_name = user_name.strip()
@@ -11,7 +11,7 @@ def global_ldap_authentication(user_name, user_pwd):
     ldsp_server = f"LDAP://PE1DCONTROLLER01.coolsupport.rita"
  
     # dn    
-    root_dn = "OU=IT,OU=Headquarters Users,OU=Headquarters,DC=coolsupport,DC=rita"
+    # root_dn = "OU=Headquarters Users,OU=Headquarters,DC=coolsupport,DC=rita"
  
     # user
     user = f'cn={ldap_user_name},{root_dn}'

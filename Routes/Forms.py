@@ -86,17 +86,20 @@ class POForm(FlaskForm):
     vendor_phone = StringField('Vender Phone Number')
     order_date = DateField('Order Date', validators=[DataRequired()])
     recieved_date = DateField('Recieved Date')
-    total = FloatField('Order Total', render_kw={'readonly': True}, validators=[DataRequired()])
+    total = FloatField('Order Total', validators=[DataRequired()])
     requester = StringField('Requester', render_kw={'readonly': True}, validators=[DataRequired()])
-    approved = SelectField('Approved?', choices=['Yes', 'No', 'Pending'], render_kw={'readonly': True})
+    approval = SelectField('Approved?', choices=['Pending', 'No', 'Yes'], render_kw={'readonly': True})
     approver = StringField('Approver', validators=[DataRequired()])
     submit = SubmitField('Submit')
     
 class POItemForm(FlaskForm):
     PO_number = IntegerField('PO Number', render_kw={'readonly': True}, validators=[DataRequired()])
-    product_name = StringField('Product Name', validators=[DataRequired()])
-    quantity = IntegerField('Quantity', validators=[DataRequired()])
-    price = FloatField('Price', validators=[DataRequired()])
+    product_name = StringField('Product Name', render_kw={'placeholder': 'Product Name'}, validators=[DataRequired()])
+    quantity = IntegerField('Quantity', render_kw={'placeholder': "Quantity"}, validators=[DataRequired()])
+    price = FloatField('Price', render_kw={'placeholder': "Price"}, validators=[DataRequired()])
+    
+class ApprovalForm(FlaskForm):
+    Notes = TextAreaField('Notes')
     
 def get_Depts():
     DEPC = Department.query.all()

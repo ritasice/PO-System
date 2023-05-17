@@ -1,0 +1,390 @@
+"IceGuy SQL",,,,,
+,,,,,
+,,,,,
+"Administrator",,,,"Administrator@coolsupportcenter.com",
+"sAMAccountName",,,,,
+"FH_Service",,,,,
+"Internet Guest Account",,,,,
+"Domain Addition",,,,,
+"MW Service",,,,,
+,,,,,
+"AAD_2dba46fbc260",,,,,
+"Replay Service",,,,,
+"BI360 Gateway",,,,,
+"John X Dombroski",,,,,
+"LandSweeper",,,,,
+"Aaron Asplundh",,,,,
+"Brink Processing",,,,,
+"sysaidinternal",,,,,
+"AAD_9dee8129d5b4",,,,,
+"Phoenix X. Fritch",,,,"pxfritch@ritascorp.com",
+"Phoenix Fritch",,,,"p.fritch@ritascorp.com",
+"Kathy Forringer",,,,,
+"test1",,,,,
+"Mark Adams",,,,"m.adams@ritascorp.com",
+"AAD Coolsupport",,,,,
+"Audit Account 02",,,,,
+"Audit Account 01",,,,,
+"Internet Guest Account",,,,,
+"Jay Patel",,,,"j.patel@ritascorp.com",
+"Ryan X. Matson",,,,,
+"LDAP auth",,,,,
+"ATT User",,,,"att.user@ritascorp.com",
+"Synology Backup",,,,,
+"Sage Service",,,,,
+"Prasad Railkar",,"Rita's Franchise Company","IT","p.railkar@ritascorp.com","215-876-9349"
+"Jordan Rubinstein",,"Rita's Franchise Company","IT","j.rubinstein@ritascorp.com","9329"
+"Ryan Matson",,,,"r.matson@ritascorp.com",
+"Mark X. Adams",,,,,
+"Aaron X. Asplundh",,,,,
+"Prasad X. Railkar",,,,,
+"ATT Test 01",,,,"ATT_Test01@ritascorp.com",
+"Jay X. Patel",,,,,
+"Mike Breaux",,"Rita's Franchise Company",,"m.breaux@ritascorp.com","9327"
+"Bhaskar Desharaju",,,,,
+"itsuser",,,,"ituser@ritascorp.com",
+"MAC Training",,,,,
+"Weidenhammer Systems",,,,,
+"Calebe Nobre",,"Rita's Franchise Company","IT","c.nobre@ritascorp.com",
+"Mike X. Breaux",,,,,
+"Training Classroom",,,,,"6056"
+"Training Courtesy Phone",,,,,"6032"
+"NIPA User",,,,,
+"__vmware_user__",,,,,
+"Launch IIS Process Account",,,,,
+"Launch IIS Process Account",,,,,
+"IT Test",,,,"ittest@ritascorp.com",
+"Kamil Yakubov",,"Rita's Franchise Company","Finance","kyakubov@coolsupportcenter.com","9365"
+"Training Scanner",,,,,
+"Al Mendoza",,,,"amendoza@coolsupportcenter.com",
+"Lauriena Borstein",,"Rita's Franchise Company",,,"9328"
+"Randi Persky",,"Rita's Franchise Company","Operations","r.persky@ritascorp.com","9364"
+"Corey Savona",,"Rita's Franchise Company","Operations",,
+"Edward Simonson",,"Rita's Franchise Company","Operations","e.simonson@ritascorp.com","9453"
+"John D'Allesandro",,"Rita's Franchise Company","Operations","j.dallesandro@ritascorp.com","215-360-2841"
+"Yvette Petroval",,"Rita's Franchise Company","Operations",,
+"Kathy Deal",,"Rita's Franchise Company LLC","Operations","k.deal@ritascorp.com","215-876-9325"
+"Cool University",,,,,"6042"
+"Kevin Seely",,,,"kseely@coolsupportcenter.com","9310"
+"Michael Rathman",,"Rita's Franchise Company","Operations","m.rathman@ritascorp.com",
+"Cierra Parodi",,,,,
+"Jeanette Courduff",,"Rita's Franchise Company","Operations","j.courduff@ritascorp.com","215-876-9313"
+"Colin Burke",,,,"c.burke@ritascorp.com",
+"Jamie Snyder",,"Rita's Franchise Company","Operations","j.snyder@ritascorp.com","215-876-9343"
+"Victoria Coia",,,,"v.coia@ritascorp.com","9312"
+"Kathleen McEntegart",,"Rita's Franchise Company","Accounting","k.mcentegart@ritascorp.com","215-876-9337"
+"Joyce Liberatore",,"Rita's Franchise Company","HR","j.liberatore@ritascorp.com","215-876-9331"
+"Rachel Zawora",,"Rita's Franchise Company","Development","r.zawora@ritascorp.com","9329"
+"Madalyn Weintraub",,"Rita's Franchise Company","Marketing","m.weintraub@ritascorp.com","215-876-9326"
+"Jessica Snyder",,"Rita's Franchise Company","Research & Development","jesnyder@coolsupportcenter.com","9333"
+"Christine Ferello",,"Rita's Franchise Company","Finance","cferello@coolsupportcenter.com","9363"
+"Gina Moughty",,"Rita's Franchise Company","Franchising","g.moughty@ritascorp.com",
+"Desiree DiGiovacchino",,,,"ddigiovacchino@coolsupportcenter.com","9334"
+"2009 Q4 Archive",,,,"2009Q4@coolsupportcenter.com",
+"2010 Q3 Archive",,,,"2010Q3@coolsupportcenter.com",
+"2010 Q1 Archive",,,,"2010Q1@coolsupportcenter.com",
+"2012 Q2 Archive",,,,"2012Q2@coolsupportcenter.com",
+"2011 Q2 Archive",,,,"2011Q2@coolsupportcenter.com",
+"2010 Q2 Archive",,,,"2010Q2@coolsupportcenter.com",
+"2012 Q1 Archive",,,,"2012Q1@coolsupportcenter.com",
+"Heidi Gardner",,"RFC","Franchise","hgardner@coolsupportcenter.com","9362"
+"2011 Q3 Archive",,,,"2011Q3@coolsupportcenter.com",
+"Microsoft Exchange",,,,"SystemMailbox{e0dc1c29-89c3-4034-b678-e6c29d823ed9}@coolsupportcenter.com",
+"Finance Department",,,,"finance@coolsupportcenter.com",
+"Mail Archive",,,,"archive@coolsupportcenter.com",
+"Ritascorp Contacts",,,,"contacts@coolsupportcenter.com",
+"Temperature Logger",,,,"temperature@ritascorp.com",
+"Temporary Blackberry",,,,"tblackberry@coolsupportcenter.com",
+"Dispute Resolution",,,,"disputeresolution@coolsupportcenter.com",
+"SysAid Administrator",,,,"sysaid@coolsupportcenter.com",
+"AVG Monitor",,,,"AVGMonitor@coolsupportcenter.com",
+"Jim Devlin",,"Rita's Franchise Company","Executive","j.devlin@ritascorp.com","9317"
+"Education Admins",,,,"educationadmin@ritascorp.com",
+"Microsoft Exchange Approval Assistant",,,,"SystemMailbox{1f05a927-a7ac-4654-a9f3-ee714bdb43bb}@coolsupportcenter.com",
+"2010 Q4 Archive",,,,"2010Q4@coolsupportcenter.com",
+"2009 Q2 Archive",,,,"2009Q2@coolsupportcenter.com",
+"EX Test",,,,"extest@coolsupportcenter.com",
+"2009 Q3 Archive",,,,"2009Q3@coolsupportcenter.com",
+"SysAid Inbound",,,,"newticket@coolsupportcenter.com",
+"Pam Smith",,,,"psmith2@coolsupportcenter.com",
+"2011 Q1 Archive",,,,"2011Q1@coolsupportcenter.com",
+"2011 Q4 Archive",,,,"2011Q4@coolsupportcenter.com",
+"Tara Knorr",,"Rita's Franchise Company","Operations","t.knorr@ritascorp.com","9361"
+"Store Correspondence",,,,"storcorrespondence@coolsupportcenter.com",
+"Brian Crosby",,,,"b.crosby@ritascorp.com",
+"Smart UPS",,,,"apc@coolsupportcenter.com",
+"CoolNet Admin",,,,"Cna@coolsupportcenter.com",
+"Donna Meehan",,"Rita's Franchise Company","Executive","dmeehan@coolsupportcenter.com","9339"
+"Fax Archive",,,,"fa@coolsupportcenter.com",
+"Ops Receiver",,,,"opsreceiver@coolsupportcenter.com",
+"TEST USER",,,,"tuser@ritascorp.com",
+"MAS90 Email",,,,"mas90email@coolsupportcenter.com",
+"Dev Mail Connector",,,,"devmail@ritascorp.com",
+"Rita's Franchise Company",,,,"ritas@ritascorp.com",
+"Mark Mirau",,,,,
+"LLB Group",,,,,
+"Exchange Archiver",,,,,
+"Ashok Indukuri",,,,,
+"Jonathan Kolman",,,,,
+"Yashwant Kilaru",,,,,
+"ritas loaner",,,,,
+"Marcellus Brady",,,,,
+"Leonard Danao",,,,,
+"Christian Chavez",,,,"cchavez@hammer.net",
+"Kevin Dombroski",,,,,
+"Eric Taylor",,,,,"9319"
+"Alicia Woznicki",,,,,"9315"
+"Hue Nguyen",,,,,
+"Kelly Irvine",,,,,
+"Andrew Zarama",,,,,
+"Abby Ekiert",,,,,
+"Brandon Barcusky",,,,,
+"Ian Lempitsky",,,,"ilempitsky@ritascorp.com",
+"Natalia Makarevitz",,,,,
+"Emily Dick",,,,,
+"Jonathan Laurizio",,,,,
+"Michelle Artz",,,,,
+"CN=Microsoft Corporation,L=Redmond,S=Washington,C=US",,,,,
+"sshd daemon",,,,,
+"Ivan Kaspersky",,,,,
+"Greg Rees",,,,,
+"Christina Hever",,,,,
+"Steven McKinney",,,,,"9333"
+"Robin Seward",,,,,"9316"
+"Jeff Moody",,,,,"9324"
+"HR Interview",,,,,
+"Rita ATT.Admin",,,,"rita.att.admin@ritascorp.com",
+"Corporate Museum Room",,,,,"9416"
+"Weather Hotline",,,,,"9399"
+"test test",,,,,
+"Scanning Room",,,,,"9467"
+"Ricoh Copiers",,,,,
+"profile",,,,,
+"MAS Service",,,,,
+"MAS 200 Backup",,,,,
+"Forefront DAS",,,,,
+"ASP Net Runner",,,,,
+"Kaitlynn Ambrose",,,,"k.ambrose@ritascorp.com",
+"Chuck Diven",,"Rita's Franchise Company","Operations",,
+"skype",,,,,
+"Nati Jay Deangdeelert",,,,"n.deangdeelert@ritascorp.com","9315"
+"Jacqueline Trouveroy",,,,,
+"Kelly Feigum",,,,,
+"Karen Chipin",,,,,
+"Brendan Silberman",,,,,
+"Lisa Herold",,"Rita's Franchise Company","Accounting","l.herold@ritascorp.com","215-876-9321"
+"Melissa Stewart",,"Rita's Franchise Company","Accounting","m.stewart@ritascorp.com","215-876-9309"
+"Franchise Sales",,,,"franchise_sales@ritascorp.com",
+"Discovery Search Mailbox",,,,"DiscoverySearchMailbox{D919BA05-46A6-415f-80AD-7E09334BB852}@coolsupportcenter.com",
+"Terri Artillio",,"Rita's Franchise Company","Operations","t.artillio@ritascorp.com","9357"
+"Matt Craig",,"Rita's Franchise Company","Accounting","m.craig@ritascorp.com","9314"
+"Cool Certificates",,,,"ccerts@coolsupportcenter.com",
+"Marlise Macrina",,"Rita's Franchise Company","Legal","m.macrina@ritascorp.com","215-876-9359"
+"Michelle Nurchowdhury",,"Rita's Franchise Company","Training","m.nurchowdhury@ritascorp.com","6016"
+"Kelly Allen",,"RFC","Finance",,"9350"
+"Tom Kaelin",,"Rita's Franchise Company","Operations","t.kaelin@ritascorp.com","6015"
+"Shannon Keirans",,"Rita's Franchise Company","Training","skeirans@coolsupportcenter.com","6030"
+"Training Laptop",,,,,
+"Careers Email",,,,"careers@ritascorp.com",
+"Jeff Kruman",,"Rita's Franchise Company","Operations","j.kruman@ritascorp.com",
+"Microsoft Exchange Approval Assistant",,,,"FederatedEmail.4c1f4d8b-8179-4148-93bf-00a95fa1e042@coolsupportcenter.com",
+"Molly McWilliams",,"Rita's Franchise Company","Finance","m.mcwilliams@ritascorp.com",
+"Jennifer Cannon",,"Rita's Franchise Company","Operations","j.cannon@ritascorp.com","215-876-9346"
+"Damon Duchai",,"Rita's Franchise Company","IT","d.duchai@ritascorp.com",
+"Linda Chadwick",,"Rita's Franchise Company","Executive","l.chadwick@ritascorp.com","215-876-9324"
+"Nicole Preisler",,"Rita's Franchise Company","Real Estate","n.preisler@ritascorp.com","9308"
+"Donna Albright",,,,"d.albright@ritascorp.com","9310"
+"John Dombroski",,"Rita's Franchise Company","Accounting","j.dombroski@ritascorp.com",
+"smb sage",,,,,
+"Test Account",,,,"test01@ritascorp.com",
+"Laura Cummings",,"Rita's Franchise Company","Operations","l.cummings@ritascorp.com","9347"
+"Brianne Barket",,"Rita's Franchise Company LLC","R&D","b.barket@ritascorp.com","215-876-9348"
+"Katie O'Rourke",,"Rita's Franchise Company","Operations","k.orourke@ritascorp.com","9341"
+"Jenna Spadaccino",,"Rita's Franchise Company","Franchise","j.spadaccino@ritascorp.com","9338"
+"Franchising For discovery day",,"Rita's Franchise Company","Franchising",,
+"Beth Kemmerer",,"Rita's Franchise Company","R&D","b.kemmerer@ritascorp.com","9373"
+"Michelle Nolfi",,"Rita's Franchise Company","Operations","m.nolfi@ritascorp.com","9305"
+"James Ruggieri",,"Rita's Franchise Company","R&D","j.ruggieri@ritascorp.com","9378"
+"Kristen Heath",,,,"k.heath@ritascorp.com",
+"Christen Weipert",,,,,
+"Jenny Veen",,,,"j.veen@ritascorp.com",
+"image gelaiti",,,,,
+"Printer ID for ABM 2018",,,,,
+"Garth Cooper",,,,"g.cooper@ritascorp.com","9339"
+"John DiLenge",,"Rita's Franchise Company","Supply Chain","j.dilenge@ritascorp.com","9332"
+"Steven Benjamin",,"Rita's Franchise Company","Operations","s.benjamin@ritascorp.com","267-530-2675"
+"Lisa Williams",,"Rita's Franchise Company","Operations","l.williams@ritascorp.com","267-966-5069"
+"Paula Lisicki",,"Rita's Franchise Company","HR","p.lisicki@ritascorp.com","215-876-9307"
+"Mike Lorelli",,,,"m.lorelli@ritascorp.com",
+"Dan Deal",,"Rita's Franchise Company","Operations","d.deal@ritascorp.com","9357"
+"Sara DeYoung",,"Rita's Franchise Company",,,
+"Mark Cohen",,"Rita's Franchise Company","Operations","m.cohen@ritascorp.com",
+"Tortal Training",,,,,
+"Kevin Murray",,"Rita's Franchise Company","Real Estate",,"9311"
+"Dawn Penecale",,"Rita's Franchise Company","Operations","d.penecale@ritascorp.com",
+"Adrienne Keenan",,,,,
+"Amy Soska",,,,"a.soska@ritascorp.com",
+"Tim Dowling",,"Rita's Franchise Company",,"t.dowling@ritascorp.com",
+"Micaela Bailey",,"Rita's Franchise Company","Marketing","m.bailey@ritascorp.com","9375"
+"Phyllis Levy",,,,"p.levy@ritascorp.com","9316"
+"Michelle Jurkiewicz",,,,"m.jurkiewicz@ritascorp.com","9315"
+"John Small",,,,"j.small@ritascorp.com",
+"Call Manager Mail Access",,,,,
+"Laurie Luther",,,,"l.luther@ritascorp.com",
+"Carol Parkinson",,,,"c.parkinson@ritascorp.com",
+"Brian Galvin",,,,"b.galvin@ritascorp.com",
+"Jessica Singer",,,,"je.singer@ritascorp.com","9334"
+"Michelle Rubin",,"Rita's Finance Company","Accounting","m.rubin@ritascorp.com","9373"
+"Charlotte Cooke",,,"Finance",,"9350"
+"Patrick Young",,"Rita's Franchise Company","Accounting","p.young@ritascorp.com",
+"Priscilla Alvare",,"Rita's Franchise Company",,"p.alvare@ritascorp.com","9352"
+"Tortal Booth ID for ABM 2018",,,,,
+"Herman Gonzalez",,"Rita's Franchise Company","Operations","h.gonzalez@ritascorp.com",
+"Consultant 01",,,,,
+"Jeffrey Garvin",,,,,
+"Chester Colburn",,,,,
+"Kevin Kruse",,"Rita's Franchise Company","Franchising","k.kruse@ritascorp.com",
+"Cassidy Bonner",,"Rita's Franchise Company","Marketing","c.bonner@ritascorp.com",
+"Audrey Hardy",,"Rita's Franchise Company","R&D","a.hardy@ritascorp.com",
+"Jake Chippas",,"Rita's Franchise Company","Real Estate",,
+"Cary Swist",,,,,
+"Jaclyn Wade",,"RFC","Marketing",,
+"Vincent Laudicina",,,,,
+"Nick Kimlinger",,,,,"9320"
+"Nick Griswold",,,,,
+"Jay Syzdek",,,,,
+"Ritas ID List",,,,"ritas.id@ritascorp.com",
+"Varonis_SA",,,,,
+"Nadijah Campbell",,"Rita's Franchise Company","Legal","n.campbell@ritascorp.com",
+"Jeremy Sichel",,"Rita's Franchise Company","Legal","j.sichel@ritascorp.com",
+"Gerald Wells",,"Rita's Franchise Company","Legal","g.wells@ritascorp.com","215-876-9371"
+"Peter Jurta",,"Rita's Franchise Company","Operations","p.jurta@ritascorp.com","215-876-9332"
+"Dawn Stern",,"Rita's Franchise Company","Legal","d.stern@ritascorp.ccom",
+"Jeffery Baker",,"Rita's Franchise Company","Real Estate","j.baker@ritascorp.com","757-322-7797"
+"Christina Fallon",,"Rita's Franchise Company","Operations","c.fallon@ritascorp.com","215-876-9352"
+"Jake Chippas",,"Rita's Franchise Compamy","Real Estate","j.chippas@ritascorp.com","412-977-2201"
+"Auto CAD",,"Rita's Franchise Company","Real Estate","autocad@ritascorp.com",
+"Matthew Freney",,"Rita's Franchise Company",,,
+"Alissa Forcina",,"Rita's Franchise Company","Marketing","a.forcina@ritascorp.com",
+"Erin Mongeluzi",,,,"e.mongeluzi@ritascorp.com",
+"Lisa White",,"Rita's Franchise Company","Marketing","l.white@ritascorp.com",
+"Michaela Bailey .",,"Rita's Franchise Company","Marketing",,
+"Codi Regan",,"Rita's Franchise Company","Marketing","c.regan@ritascorp.com",
+"Jeanie Davey",,,,,
+"Jessie Boak",,"Rita's Franchise Company","Marketing","j.boak@ritascorp.com","(215) 876-9387"
+"Jennifer Giuliano",,,,,
+"Daniel L. Long",,,,,"(267) 464-1940"
+"Cierra Holden",,"Rita's Franchise Company","Operations","c.holden@ritascorp.com","215-650-0477"
+"Audrey Hart",,,,"a.hart@ritascorp.com",
+"Jaclyn Mahan",,"Rita's Franchise Company","R&D","j.mahan@ritascorp.com","215-876-9362"
+"Rita Veras-Iglesias",,"Rita's Franchise Company","Franchise","r.veras@ritascorp.com",
+"Lori Shaffron",,"Rita's Franchise Company LLC","Franchise Sales","l.shaffron@ritascorp.com","215-876-9372"
+"Skype",,,,"SkypeX@ritascorp.com",
+"ZOOM RITAS 01",,"Rita's Franchise Company",,"ZOOM.RITAS.01@ritascorp.com",
+"Paul Greenberg",,"Rita's Franchise Company","Operations","p.greenberg@ritascorp.com","267-756-0141"
+"Bridget Heeney",,,,,
+"Rick Schofield",,"Rita's Franchise Company","Operations","r.schofield@ritascorp.com",
+"Jonathan Paros",,"Rita's Franchise Company","Operations","j.paros@ritascorp.com",
+"Kent Doyle",,"Rita's Franchise Company","Marketing","k.doyle@ritascorp.com","215-876-9376"
+"Stacey Miller",,"Rita's Franchise Company","Operations","s.miller@ritascorp.com","267-574-1938"
+"Eric Bayer",,"Rita's Franchise Company","Operations","e.bayer@ritascorp.com",
+"Mobile 01",,,,"mobile01@ritascorp.com",
+"Lindsey Goff",,"Rita's Franchise Company","Operations","l.goff@ritascorp.com","267-750-8704"
+"Edward Jackson",,,,,
+"Lisa Harris",,"Rita's Franchise Company","Operations","l.harris@ritascorp.com","267-750-9798"
+"Greg Schneider",,"Rita's Franchise Company LLC","Procurement","g.schneider@ritascorp.com","215-876-9335"
+"John Doe",,,,,
+"Liz Foley",,"Rita's Franchise Company","Marketing","l.foley@ritascorp.com","215-876-9388"
+"Neel Patel",,,,"n.patel@ritascorp.com",
+"Angel Gerena",,"Rita's Franchise Company","IT","a.gerena@ritascorp.com",
+"Barbara Kaiwi",,,,"b.kaiwi@ritascorp.com",
+"Michael Sciarra",,"Rita?s Franchise Company, LLC","Development","m.sciarra@ritascorp.com","215-876-9393"
+"Evoke Technologies",,,,,
+"Brittney Zipin",,,"Accounting","b.zipin@ritascorp.com",
+"Anita Oetgen",,,,"a.oetgen@ritascorp.com",
+"Sam Collins",,,"Legal","s.collins@ritascorp.com","215-876-9353"
+"IT Testing",,,,"i.testing@ritascorp.com",
+"John Martin",,"Rita's Franchise Company LLC","Operations","j.martin@ritascorp.com","215-876-9308"
+"Raul Mendez",,,,,
+"Fred Klemmer",,"Rita's Franchise Company","Facilities","f.klemmer@ritascorp.com","215-876-9317"
+"Megan Huban",,"Rita's Franchise Company",,,
+"Kiersten Bojanowski",,,,,
+"Maura Castronuovo",,"Rita's Franchise Company","Accounting","m.castronuovo@ritascorp.com",
+"Cristina Carducci",,,,"c.carducci@ritascorp.com",
+"UPS User - Mail Room",,,,,"215-876-9317"
+"Sam Charlton",,,,"s.charlton@ritascorp.com",
+"Temp User - Construction",,,,,
+,,,,,
+"Tim Paul",,,,"t.paul@ritascorp.com",
+"Testing Account",,,,,
+"Blendini Room",,,,,"9417"
+"Office 365 Test User Sharepoint Owner",,,"IT","TestSP@ritascorp.com",
+"Misto Room",,,,,"9418"
+"Wayne Williams",,,,,"215 554 5745"
+"Kristen Brooks",,,,"K.Brooks@ritascorp.com",
+"Josh Leppien",,,,"J.Leppien@ritascorp.com",
+"PW2DCONTROLLER02 AWS",,,,,
+"Sophos Authentication",,,,,
+,,,,,
+"ATT AWS Test",,,,,
+"Donald Schmidt",,"Rita's Franchise Company",,"d.schmidt@ritascorp.com",
+"Albert DiFante",,,,"a.difante@ritascorp.com",
+"Angela Frustaci",,"Rita's Franchise Company",,"a.frustaci@ritascorp,com",
+"Steve Normington",,,"Legal","s.normington@ritascorp.com",
+"Joseph Cerulli",,"Rita's Franchise Company LLC","Operations","j.cerulli@ritascorp.com","215-876-9366"
+"Joe Lawrence",,,,"j.lawrence@ritascorp.com",
+"Silvia Winkler",,,"HR","s.winkler@ritascorp.com","0043"
+"Kim Layre",,"Rita's Franchise Company","Operations",,"9355"
+"Taylor Singer",,,,"t.singer@ritascorp.com",
+"Nicole Russell",,,,,
+"Michael Broderick",,"Rita's Franchise Company",,,
+"Julie McAndrews",,"Rita's Franchise Company",,,
+"Destiny Gonzalez",,,"Marketing","d.gonzalez@ritascorp.com",
+"Dawn Sain",,"Rita's Franchise Company",,"d.sain@ritascorp.com",
+"Diane Kiljanski",,,,,
+"James Cahill",,,,,
+"Jenny Boylan",,"Rita's Franchise Company","Accounting",,
+"John Neunson",,,,,
+"PE1DCONTROLLER01 AWS",,,,,
+"FSx Service Account",,,,,
+"Birgit Knox",,"Rita's Franchise Company LLC","Finance","b.knox@ritascorp.com","215-876-9314"
+"Kimberly Haidacher",,"Rita's Franchise Company LLC","Franchise Sales","k.haidacher@ritascorp.com","215-876-9345"
+"Brandan Bernal",,,"Accounting","b.bernal@ritascorp.com",
+"Jonathan Baske",,"Rita's Franchise Company LLC","Development","j.baske@ritascorp.com","215-876-9374"
+"Natalie Miller",,"Rita's Franchise Company LLC","Marketing","n.miller@ritascorp.com","727-644-6823"
+"Narasimha Roa. Kalakota",,"Evoke","IT",,
+"Ashwini Jagtap",,"Evoke Technologies","IT",,
+"Bill Callahan",,"Rita's Franchise Company","Accounting","w.callahan@ritascorp.com","215-876-9361"
+"Jacob Adelsberger",,"Rita?s Franchise Company, LLC","Development","j.adelsberger@ritascorp.com","215-876-9316"
+"Joseph Ferrara",,"Rita's Franchise Company LLC","Operations","j.ferrara@ritascorp.com","215-876-9327"
+"Taylor Williams",,,"Legal","t.williams@ritascorp.com","215-876-9329"
+"George Angelakis",,,,"g.angelakis@ritascorp.com",
+"Evan Challender",,"Rita's Franchise Company LLC","R&D","e.challender@ritascorp.com","215-876-9320"
+"Sam Berman",,,"IT","s.bermanl@ritascorp.com","215-876-9320"
+"Sam X. Berman",,,,,
+"Agio Audit",,,,,
+"John Harned",,"Rita's Franchise Company LLC","Accounting","j.harned@ritascorp.com","215-876-9341"
+"Dharmik Patel","Trevose","Rita's Franchise Company LLC","IT","d.patel@ritascorp.com","215-876-9350"
+"Dharmik X. Patel",,,,,
+"S Kalyan Kakarala",,"Evoke",,,
+"Ravidranath Yellapu",,"Evoke","IT",,
+"Landis X. Golden",,,,,
+"Landis Golden",,,"IT","l.golden@ritascorp.com","215-876-9344"
+"Mattison Williams",,"Rita's Franchise Company LLC","Franchise Sales",,"215-876-9357"
+"Rachel Reiber",,,"HR",,"215-876-9358"
+"Ramya Sree Allada",,"Evoke",,"rallada1@evoketechnologies.com",
+"Shiv Patel","Trevose","Rita's Franchise Company, LLC","IT","s.patel@ritascorp.com","215-876-9368"
+"Shiv X. Patel",,,,,
+"Leena Woznicki",,"Rita's Franchise Company LLC","Marketing","l.woznicki@ritascorp.com","215-876-9322"
+"Dave Roemer",,"Rita's Franchise Company LLC","Operations",,"267-751-9385"
+"Drive Thru",,,,,
+"Scana",,,,,
+"Mark Jenkins",,"Rita's Franchise Company LLC","Marketing","m.jenkins@ritascorp.com","215-876-9356"
+"Pete Skenteris",,"Rita's Franchise Company LLC","Operations",,"267-756-0223"
+"Jagadeesh Penta",,,,"jpenta@evoketechnologies.com",
+"Sreeja Mulkalapally",,,,"smulkalapally@evoketechnologies.com",
+"Jyothi Nalamati",,"Evoke Technologies",,,
+"Jordan Tucker",,"Rita's Franchise Company LLC","Operations","j.tucker@ritascorp.com","267-495-7273"
+"Satish Kadiyala",,,,,
+"Karthik Nomula",,,,,
+"Lawrence Brown",,,,,

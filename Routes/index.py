@@ -7,6 +7,7 @@ from Routes.global_ldap_authentication import *
 
 @app.route("/Index", methods=['GET', 'POST'])
 @app.route("/", methods=['GET', 'POST'])
+@login_required
 def index():
     form = DepartmentForm()
     if request.method == 'POST':
@@ -28,18 +29,20 @@ def login():
 
     form = LoginForm()
     if request.method == 'POST':
-        login_id = form.email.data
-        print(login_id)
+        email = form.email.data
+        user = User.query.filter_by(Email=email).first()
+        login_id = user.Name
+        dpt = user.Department
         login_password = form.password.data
-
+        root_dn = f"OU={dpt},OU=Headquarters Users,OU=Headquarters,DC=coolsupport,DC=rita"
         # create a directory to hold the Logs
-        login_msg = global_ldap_authentication(login_id, login_password)
-
+        login_msg = global_ldap_authentication(login_id, login_password, root_dn)
         # validate the connection
         if login_msg == "Success":
             success_message = f"*** Authentication Success "
             print(success_message)
-            return redirect(url_for('Shared/index.html'))
+            login_user(user)
+            return redirect(url_for('index'))
 
         else:
             error_message = f"*** Authentication Failed - {login_msg}"
