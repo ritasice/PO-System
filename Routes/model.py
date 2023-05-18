@@ -55,14 +55,14 @@ class POEntry(db.Model):
 
 class POItem(db.Model):
     id = db.Column(db.Integer, unique=True, primary_key=True)
-    PO_Number = db.Column(db.Integer, db.ForeignKey('po_entry.PO_Number'), nullable=False)
+    PO_id = db.Column(db.Integer, db.ForeignKey('po_entry.id'), nullable=False)
     Product_Name = db.Column(db.String(60), nullable=False)
     Quantity = db.Column(db.Integer, nullable=False)
     Price = db.Column(db.Float, nullable=False)
 
 class Approval(db.Model):
     id = db.Column(db.Integer, unique=True, primary_key=True)
-    PO_Number = db.Column(db.Integer, db.ForeignKey('po_entry.PO_Number'), nullable=False)
+    PO_id = db.Column(db.Integer, db.ForeignKey('po_entry.id'), nullable=False)
     Requester = db.Column(db.String(60), nullable=False)
     Approver = db.Column(db.String(60))
     DateRequested = db.Column(db.DateTime, nullable=False)

@@ -4,6 +4,7 @@ from Routes.model import Department, User
 from Routes import app, db, bcrypt
 from Routes.Forms import RegistrationForm, LoginForm, DepartmentForm, LoginValidation
 from Routes.global_ldap_authentication import *
+import os
 
 @app.route("/Index", methods=['GET', 'POST'])
 @app.route("/", methods=['GET', 'POST'])
@@ -20,6 +21,7 @@ def index():
         flash('Department has been created', 'green')
         return redirect(url_for("index"))
     departments = Department.query.order_by('Name').all()
+    
     return render_template("Shared/index.html", departments=departments, form=form)
 
 @app.route("/login", methods=['GET', 'POST'])

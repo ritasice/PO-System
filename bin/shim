@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-export NODE_PATH='/home/dpatel/PO-System/lib/node_modules'
-export NPM_CONFIG_PREFIX='/home/dpatel/PO-System'
-export npm_config_prefix='/home/dpatel/PO-System'
-exec '/home/dpatel/PO-System/bin/node' "$@"
+export NODE_PATH='/home/PO-System/PO-System/lib/node_modules'
+export NPM_CONFIG_PREFIX='/home/PO-System/PO-System'
+export npm_config_prefix='/home/PO-System/PO-System'
+exec '/home/PO-System/PO-System/bin/node' "$@"

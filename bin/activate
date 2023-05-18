@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/home/dpatel/PO-System"
+VIRTUAL_ENV="/home/PO-System/PO-System"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
@@ -154,7 +154,7 @@ if [ "${BASH_SOURCE}" ] ; then
 else
     # dash not movable. fix use case:
     #   dash -c " . node-env/bin/activate && node -v"
-    NODE_VIRTUAL_ENV="/home/dpatel/PO-System"
+    NODE_VIRTUAL_ENV="/home/PO-System/PO-System"
 fi
 
 # NODE_VIRTUAL_ENV is the parent of the directory where this script is

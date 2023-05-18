@@ -8,7 +8,7 @@ def global_ldap_authentication(user_name, user_pwd, root_dn):
     ldap_user_pwd = user_pwd.strip()
  
     # ldap server hostname and port
-    ldsp_server = f"LDAP://PE1DCONTROLLER01.coolsupport.rita"
+    ldsp_server = f"LDAP://10.0.1.140"
  
     # dn    
     # root_dn = "OU=Headquarters Users,OU=Headquarters,DC=coolsupport,DC=rita"
