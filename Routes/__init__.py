@@ -4,6 +4,9 @@ from flask_login import LoginManager
 from flask_sqlalchemy import SQLAlchemy
 from Routes.config import Config
 import urllib.parse
+import logging
+
+logging.basicConfig(filename='record.log', level=logging.DEBUG)
 
 server = Config.SQLSERVER_IP
 database = "ritas_po_system"

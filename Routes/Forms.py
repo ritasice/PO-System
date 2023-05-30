@@ -1,7 +1,5 @@
 from flask_wtf import FlaskForm, Form
-from flask_wtf.file import FileAllowed, FileField
 from wtforms import (
-    BooleanField,
     DateField,
     PasswordField,
     StringField,
@@ -10,10 +8,8 @@ from wtforms import (
     IntegerField,
     FloatField,
     TextAreaField,
-    validators,
 )
 from wtforms.validators import DataRequired, Email, EqualTo, Length, ValidationError
-from Routes import db
 from Routes.model import User, Department
 
 
@@ -23,10 +19,9 @@ class RegistrationForm(FlaskForm):
 
         self.department.choices = [i.Name for i in Department.query.all()]
 
-    fname = StringField(
-        "First Name", validators=[DataRequired(), Length(min=2, max=20)]
+    name = StringField(
+        "Name as seen in AD", validators=[DataRequired()]
     )
-    lname = StringField("Last Name", validators=[DataRequired(), Length(min=2, max=20)])
     email = StringField("Email", validators=[DataRequired(), Email()])
     department = SelectField("Department", coerce=str, validators=[DataRequired()])
     password = PasswordField("Password", validators=[DataRequired()])
@@ -109,9 +104,7 @@ class POForm(FlaskForm):
     order_date = DateField("Order Date", validators=[DataRequired()])
     recieved_date = DateField("Recieved Date")
     total = FloatField("Order Total", validators=[DataRequired()])
-    requester = StringField(
-        "Requester", render_kw={"readonly": True}, validators=[DataRequired()]
-    )
+    requester = StringField("Requester", validators=[DataRequired()])
     approval = SelectField(
         "Approved?", choices=["Pending", "No", "Yes"], render_kw={"readonly": True}
     )

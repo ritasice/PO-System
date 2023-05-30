@@ -44,6 +44,7 @@ def login():
             success_message = f"*** Authentication Success "
             print(success_message)
             login_user(user)
+            app.logger.info(f"{email} logged in succesfully")
             return redirect(url_for('index'))
 
         else:
