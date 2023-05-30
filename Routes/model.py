@@ -26,7 +26,7 @@ class User(db.Model, UserMixin):
     LastLogin = db.Column(db.DateTime, default=datetime.utcnow)
 
     def __repr__(self):
-        return f"User('{self.email}')"
+        return f"{self.Email}"
 
 
 User.ReportsToID = db.Column(db.Integer, db.ForeignKey(User.id))

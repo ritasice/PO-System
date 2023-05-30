@@ -9,14 +9,15 @@ import os
 @app.route('/admin')
 def adminIndex():
     users = User.query.all()
-    return render_template('Shared/admin.html', users=users)
+    return render_template('Shared/admin.html', Users=users)
 
+@app.route('/adduser')
 def addUser():
     form = RegistrationForm()
     if form.validate_on_submit():
         user = User(
-                Name = form.name.data
-                Email = form.email.data
+                Name = form.name.data,
+                Email = form.email.data,
                 Department = form.department.data
                 )
         db.session.add(user)

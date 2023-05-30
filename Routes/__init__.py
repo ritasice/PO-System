@@ -39,5 +39,5 @@ login_manager = LoginManager(app)
 login_manager.login_view = 'login'
 login_manager.login_message_category = 'info'
 
-from Routes import index, Tracking
+from Routes import index, Tracking, admin
 

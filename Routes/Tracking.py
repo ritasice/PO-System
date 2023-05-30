@@ -86,12 +86,12 @@ def send_approval_request(po_id):
     db.session.add(appr)
     db.session.commit()
 
-    # url = "http://10.0.1.32:5000/Approval/IT/po_id"
-    # sb = "PO Approval"
-    # msg = f"Please approve the following PO, located at {url}"
+    url = "http://10.0.1.32:5000/Approval/IT/po_id"
+    sb = "PO Approval"
+    msg = f"Please approve the following PO, located at {url}"
 
-    # os.system(f'echo "{msg}" | mail -s "{sb}" {current_user.Email}')
-    # os.system(f'echo "{msg}" | mail -s "{sb}" {recp})
+    os.system(f'echo "{msg}" | mail -s "{sb}" {current_user.ReportsTo}')
+    os.system(f'echo "{msg}" | mail -s "{sb}" {recp}')
 
     print(po_id)
 
